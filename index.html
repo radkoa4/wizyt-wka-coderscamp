@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizytówka</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="wrapper">
+    <header>
+        <nav>
+        <a class="menu" href="#">O mnie</a><a class="menu" href="#projekty">Projekty</a><a class="menu" href="#media">Media</a><a class="menu"href="#kontakt">Kontakt</a>
+        </nav>
+        <hgroup>
+            <h1>
+                Radek Bijata.
+            </h1>
+            <h3>
+                Wizytówka.
+            </h3>
+        </hgroup>
+        <img class="foto" src="nowe1.png"/>
+        <p>Zawodowo ratownik medyczny. Prywatnie miłośnik przyrody, podróżnik- amator. Miłośnik gór.
+            W 2019 wynurzył się zza horyzontu kolejny szczyt- CodersCamp. Obóz pierwszy założony. 
+            Ta wizytówka jest kolejną granią, którą właśnie przechodzę. 
+        </p>
+    <div class="arrow"><i class="fas fa-chevron-circle-down"></i>
+        </div>
+    </header>
+    <div id="projekty">
+        <div class="grid-container">
+        <div class="Project1"><img class="kod" src="kod.jpg"/></div>
+        <div class="Project2"><img class="kod" src="kod.jpg"/></div>
+        <div class="Project3"><img class="kod" src="kod.jpg"/></div>
+        <div class="Project4"><img class="kod" src="kod.jpg"/></div>
+    
+        </div>
+        <div class="arrowa"><i class="fas fa-chevron-circle-down"></i></div>
+    </div>
+    <div id="media">
+        <div class="arrowb"><i class="fas fa-chevron-circle-down"></i></div>
+    </div>
+    <div id="kontakt">
+        <form>
+            <div class="box">
+                <h1>Formularz kontaktowy :</h1>
+                <label>
+                    <span>Nazwa użytkownika</span>
+                    <input type="text" class="wpis" name="nazwa" id="nazwa" />
+                </label>
+                <label>
+                    <span>E-mail :</span>
+                    <input type="text" class="wpis" name="email" id="email" />
+                </label>
+                <label>
+                    <span>Temat :</span>
+                    <input type="text" class="wpis" name="temat" id="temat" />
+                </label>
+                <label>
+                    <span>Wiadomość :</span>
+                    <textarea class="wiadomosc" name="wiadomosc" id="tresc"></textarea>
+                    <input type="button" class="button" value="Wyślj" />
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="javascript.js"></script>
+    <footer>Radosław Bijata 2019 - CodersCamp.</footer>
+
+</body>
+</html>

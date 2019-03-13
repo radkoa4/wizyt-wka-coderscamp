@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, arial;
+
+
+}
+html{
+    font-size: 10px;
+}
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: #696969;
+}
+header{
+    height: 100vh;
+    background-color:
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+
+}
+.foto{
+    width: 100%
+    display: block;
+
+}
+
+header p{
+    text-align: center;
+    margin: 25% 30%;
+    line-height: 300%;
+}
+
+
+.grid-container{
+    display: flex;
+    /* padding: 5px;
+    margin: 0 40px; */
+    height: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; 
+}  
+.kod{
+    width: 25%;
+    border-radius: 15%;
+    display: flex;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+
+#media{
+    height: 100vh;
+    background-color: #B5AFBD;
+}
+#kontakt {
+    height: 100vh;
+    background-color: #E1D8D8;
+}
+#projekty{
+    height: 100vh;
+    background-color: #AB9C9C;
+}
+header img{
+    position: absolute;
+    height: 25vh ;
+    left: 65%;
+    top: 10%;
+    border-radius: 0%;
+
+}
+nav{
+    background-color: #cfcfcf;
+}
+nav a{
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color: #8f3d3d;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    background-color: black;
+}
+hgroup{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+    font-size: 7vh;
+    transition: 0.6s ease-in-out;
+    color: whitesmoke;
+}
+.arrowa{
+    position: absolute;
+    top: 185%;
+    left: 48%;
+    font-size: 7vh;
+    color: whitesmoke;
+    transition: 0.6s ease-in-out;
+}
+.arrowb{
+    position: absolute;
+    top: 285%;
+    left: 48%;
+    font-size: 7vh;
+    color: whitesmoke;
+    transition: 0.6s ease-in-out;
+}
+.arrow:hover{
+    color: silver;
+    text-shadow: 0 0 10px;
+    cursor: pointer;
+
+}
+.arrowa:hover {
+    color: silver;
+    text-shadow: 0 0 10px;
+    cursor: pointer;
+}
+.arrowb:hover {
+    color: silver;
+    text-shadow: 0 0 10px;
+    cursor: pointer;
+}    
+
+form, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+div.box {
+    margin: 0 auto;
+    width: 500px;
+    background: #222222;
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+}
+
+div.box h1 {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+}
+
+div.box label {
+    width: 100%;
+    display: block;
+    background: #1C1C1C;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color: #bbbbbb;
+    font-size: 12px;
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 5px 20px 0 0;
+}
+
+div.box .wpis {
+    padding: 10px 10px;
+    width: 200px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+}
+
+div.box .wiadomosc {
+    padding: 7px 7px;
+    width: 350px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+    overflow: hidden;
+    height: 150px;
+}
+
+div.box .button {
+    margin: 0 0 10px 0;
+    padding: 4px 7px;
+    background: black;
+    border: 0px;
+    position: relative;
+    top: 10px;
+    left: 382px;
+    width: 100px;
+    border-bottom: 1px double;
+    border-top: 1px double;
+    border-left: 1px double;
+    border-right: 1px double;
+}
+
+@media (orientation: portrait){
+
+}
